@@ -56,8 +56,10 @@ namespace IntArraySumParallelCalculator
                     Console.WriteLine($"Сумма {aSize} элементов при параллельном вычислении с помощью LINQ на {tCount} потоках: {sum}, время выполнения: {stopwatch.ElapsedMilliseconds} мс");
 
                 }
-                Console.WriteLine($"***************************************************************************************************************");
+                Console.WriteLine($"*****************************************************************************************************************************");
             }
+            Console.Write("Press ENTER to exit... ");
+            Console.ReadLine();
         }
     }
 }
